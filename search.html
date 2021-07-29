@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+    <title>Google Search</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script>
+        window.onload = function () {
+            var url = document.location.href,
+            params = url.split('?')[1].split('&'),
+            data = {}, tmp;
+            for (var i = 0, l = params.length; i < l; i++) {
+            tmp = params[i].split('=');
+            data[tmp[0]] = tmp[1];
+            }
+    
+        document.getElementById('here').innerHTML = data.search;
+        }
+    </script>
+
+</head>
+<body>
+
+    <nav class="nav">
+        <a class="points" href="#">
+            <img class="gear-img" src="assets/img/gear.png">
+        </a>
+        <a class="points" href="#">
+            <img class="points-img" src="assets/img/points.png">
+        </a>
+        <a class="points user-margin" href="https://github.com/matteotagliatti" target="_blank">
+            <img class="user-img" src="assets/img/user-img.png">
+        </a>
+    </nav>
+    
+<p id="here"></p>
+    
+</body>
+</html> 
