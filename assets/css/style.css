@@ -393,7 +393,37 @@ footer > .right {
     text-decoration: underline;
 }
 
+/* Mobile */
 
+@media only screen and (max-width: 600px) {
+    .search-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .search-results {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .search-searchbar {
+        margin-left: 0px;
+        max-width: 300px;
+    }
+
+    .search-second-nav{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .search-second-nav a {
+        padding: 10px 10px;
+    }
+
+    .search-mobile-none {
+        display: none !important;
+    }
+}
 
 
 
