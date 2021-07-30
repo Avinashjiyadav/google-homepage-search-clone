@@ -209,6 +209,37 @@ footer > .right {
     padding: 12px 0 12px 30px;
 }
 
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+    .searchbar {
+        max-width: -webkit-fill-available;
+    }
+
+    .country {
+        bottom: 90px;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 13px;
+        padding: 10px 0px;
+    }
+
+    .footer-link {
+        padding: 10px 0 10px 27px;
+    }
+
+    .mobile-padding {
+        padding-left: 0px;
+    }
+}
+
 /* Search Page */
 
 /* Nav */
