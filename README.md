@@ -1,4 +1,4 @@
-# Google Homepage & Search Clone - The Odin Project
+# Google Homepage & Search Clone
 
 Google homepage and search clone created with HTML, CSS and JS made as the first project into [The Odin Project](https://www.theodinproject.com/).
 
